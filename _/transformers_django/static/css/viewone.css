@@ -1,0 +1,20 @@
+#viewone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 3em 0;
+}
+
+#viewone img {
+    width: 300px;
+}
+
+#viewone h1 {
+    padding: 1em 0;
+    font-size: 35px;
+}
+
+#viewone p {
+    font-size: 20px;
+}

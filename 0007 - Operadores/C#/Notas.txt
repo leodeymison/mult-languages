@@ -1,0 +1,53 @@
+Operadores e operações
+
+# Operadores Aritméticos:
+
+    +     => adição
+    -     => subtração
+    *     => multiplicação
+    /     => divisão
+    %     => módulo, resto da divisão
+
+# Operadores de Atribuição:
+    =     => Atribuição simples
+    +=    => Atribuição de adição
+    -=    => Atribuição de subtração
+    *=    => Atribuição de multiplicação
+    /=    => Atribuição de divisão
+    %=    => Atribuição de módulo
+
+# Operadores de Comparação:
+    ==    => Igual a
+    !=    => Diferente de
+    <     => Menor que
+    >     => Maior que
+    <=    => Menor ou igual a
+    >=    => Maior ou igual a
+
+# Operadores Lógicos:
+    &&    => E lógico (AND)
+    ||    => OU lógico (OR)
+    !     => NÃO lógico (NOT)
+
+# Operadores Bitwise (para manipulação de bits):
+    &     => AND bitwise
+    |     => OR bitwise
+    ^     => XOR bitwise
+    ~     => NOT bitwise
+    <<    => Shift left
+    >>    => Shift right
+
+# Operadores de Incremento/Decremento:
+    ++    => Incremento
+    --    => Decremento
+
+# Operadores de Concatenação:
+    +     =>
+
+# Operadores de Indexação e Acesso a Elementos:
+
+    [ ]   => para acessar elementos em arrays, listas, etc.
+
+# Operadores Condicionais ternários:
+    ?     => if
+    :     => else

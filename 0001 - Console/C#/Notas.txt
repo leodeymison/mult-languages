@@ -1,0 +1,29 @@
+Console
+
+Caractéries de escape
+\" - Aspas duplas
+\' - Aspas simples
+\\ - Barra invertida
+\n - Nova linha
+\t - Tabulação
+\r - Indica a posição do cursor
+
+
+Formatação de console:
+Console.WriteLine("Valor..... {0,15:c}", value);
+0  => index da variável
+15 => Espaçamento
+c  => Tipo (c => Tipo monetário)
+
+Tipo:
+{0:c}            => Monetário     // Entrou: 5.50         // Saída: 5,50 €
+{0:D}            => Decimal       // Entrou: 123          // Saída: 123
+{0:F2}           => flutuante     // Entrou: 123.456      // Saída: 123.46
+{0:E}            => exponencial   // Entrou: 123.456      // Saída: 1.234560E+002
+{0:X}            => Hexadecimal   // Entrou: 255          // Saída: FF
+{0:P}            => Percentual    // Entrou: 0.25         // Saída: 25,00%
+{0:d}            => Data curta    // Entrou: DateTime.Now // Saída: 11/10/2023
+{0:D}            => Data longa    // Entrou: DateTime.Now // Saída: quarta-feira, 11 de outubro de 2023
+{0:t}            => Hora curta    // Entrou: DateTime.Now // Saída: 16:30
+{0:T}            => Hora longa    // Entrou: DateTime.Now // Saída: 16:30:00
+{0:###-##-####}  => Personalizado // Entrou: 123456789    // Saída: 123-45-6789

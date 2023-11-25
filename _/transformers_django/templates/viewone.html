@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block title %} Transformers | Home {% endblock %}
+
+{% block content %}
+<div class="button-back">
+    <a class="button-back" href="{% url 'home' %}">
+        Voltar
+    </a>
+</div>
+<div id="viewone">
+    <img src="{{ image }}" alt="">
+    <h1>{{ name }}</h1>
+    <p>{{ description }}</p>
+</div>
+{% endblock %}
