@@ -1,1 +1,0 @@
-csc main.cs ./modules/menus.cs ./modules/categories.cs && mono main.exe

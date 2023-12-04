@@ -1,5 +1,0 @@
-Criar uma calculadora de terminal com menu com a possibilidade de:
-- Somar
-- Subtrair
-- Dividir
-- Multiplicar
